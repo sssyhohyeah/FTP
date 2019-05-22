@@ -1,4 +1,10 @@
 # FTP
 FTP file server
 
-Use socket to create connection to build a ftp file server where user can upload and download files.
+功能
+>
+    【1】 分为服务端和客户端，要求可以有多个客户端同时操作。
+    【2】 客户端可以查看服务器文件库中有什么文件。
+    【3】 客户端可以从文件库中下载文件到本地。
+    【4】 客户端可以上传一个本地文件到文件库。
+    【5】 使用print在客户端打印命令输入提示，引导操作
